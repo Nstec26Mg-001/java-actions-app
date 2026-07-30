@@ -16,7 +16,7 @@ public class CalcServiceTest {
         // 実行 (Act) & 検証 (Assert)
         int result = calcService.execute(2, 3, "+");
         // 意図的にテストを失敗させる
-        assertEquals(4, result);
+        assertEquals(5, result);
     }
 
     @Test
