@@ -2,7 +2,7 @@ package com.example.demo.service;
 
 import org.springframework.stereotype.Service;
 
-@Service
+        @Service
 public class CalcService {
     /**
      * 計算を実行するメソッド
@@ -14,7 +14,7 @@ public class CalcService {
      * @throws IllegalArgumentException 不正な演算子やゼロでの割りが発生した場合
      */
     public int execute(int value1, int value2, String operator) {
-        switch (operator) {
+                switch (operator) {
             case "+":
                 return value1 + value2;
             case "-":
